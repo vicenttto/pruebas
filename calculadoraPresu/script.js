@@ -27,7 +27,7 @@ btnWhatsApp.addEventListener("click", function () {
         "- Material: " + material.options[material.selectedIndex].text + "\n" +
         "- Total estimado:" + preciofinal.innerHTML;
 
-    let telefono = CONFIG.TELEFONO_CONTACTO;
+    let telefono = "34606185795";
     window.open("https://wa.me/" + telefono + "?text=" + encodeURIComponent(mensaje), '_blank');
 })
 
