@@ -25,9 +25,19 @@ btnWhatsApp.addEventListener("click", function () {
     let mensaje = "¡Hola ASF Group! He calculado este presupuesto en la web:\n" +
         "- Medidas: Ancho -> " + ancho.value + " | Alto -> " + alto.value + "\n" +
         "- Material: " + material.options[material.selectedIndex].text + "\n" +
-        "- Total estimado:" + preciofinal.innerHTML;
+        "- Total estimado: " + preciofinal.innerHTML + " €";
 
     let telefono = "34606185795";
-    window.location.href = "https://wa.me/" + telefono + "?text=" + encodeURIComponent(mensaje), '_blank';
+
+
+    const urlWhatsApp = "https://wa.me/" + telefono + "?text=" + encodeURIComponent(mensaje);
+
+    const esPantallaPequeña = window.innerWidth <= 768;
+
+    if (esPantallaPequeña) {
+        window.location.href = urlWhatsApp;
+    } else {
+        window.open(urlWhatsApp, '_blank');
+    }
 })
 
