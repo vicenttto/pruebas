@@ -1,1 +1,5 @@
-[![Abrir Calculadora](https://img.shields.io/badge/PROBAR_CALCULADORA-1B9C85?style=for-the-badge&logo=rocket&logoColor=white)](https://vicenttto.github.io/pruebas/calculadoraPresu/)
+<div align="center">
+  <a href="https://vicenttto.github.io/pruebas/calculadoraPresu/">
+    <img src="https://img.shields.io/badge/IR_AL_PRESUPUESTADOR-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+</div>
